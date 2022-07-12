@@ -21,13 +21,7 @@ class Box:
         self.number_of_decimals = number_of_decimals
 
     def string(self):
-        return "%s (%sx%sx%s, weight: %s) pos(%s) rt(%s) vol(%s)" % (
-            self.name, self.width, self.height, self.length, self.weight,
-            self.position, self.rotation_type, self.get_volume()
-        )
-
-    def string(self):
-        return f"{self.name} : ({self.width}x{self.height}x{self.length}, weight: {self.weight}) | Volume: {self.get_volume()} CBM | pos({self.position}) | rt({self.rotation_type})"
+        return f"{self.name} : ({self.width} x {self.height} x {self.length}, weight: {self.weight}) | Volume: {self.get_volume()} CBM | pos({self.position}) | rt({self.rotation_type})"
 
     def get_volume(self):
         return set_to_decimal(

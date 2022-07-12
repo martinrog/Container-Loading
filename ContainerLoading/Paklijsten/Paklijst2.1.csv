@@ -1,0 +1,4 @@
+﻿naam;breedte;hoogte;lengte;gewicht;hoeveelheid
+TEST BOX Bigger;2.33;2.69;12.02;50;1
+TEST BOX Smaller;2.33;2.69;12;50;2
+TEST BOX Smaller;2.69;2.33;12;50;2

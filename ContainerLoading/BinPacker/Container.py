@@ -24,7 +24,7 @@ class Container:
         self.number_of_decimals = number_of_decimals
 
     def string(self):
-        return f"TYPE CONTAINER: {self.name}: ({self.width}x{self.height}x{self.depth}) - Volume: {self.get_volume()} CBM"
+        return f"TYPE CONTAINER: {self.name}: ({self.width} x {self.height} x {self.depth}) - Volume: {self.get_volume()} CBM"
 
     def get_volume(self):
         """This function return the volume of the container"""

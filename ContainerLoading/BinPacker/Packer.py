@@ -26,12 +26,13 @@ class Packer:
 
         fitted = False
 
+        #Hij gaat kijken of hij past of niet
         if not bin.items:
             response = bin.put_item(item, START_POSITION)
 
             if not response:
                 bin.unfitted_items.append(item)
-
+            #stopt functie als hij niet past
             return
 
         for axis in range(0, 3):
